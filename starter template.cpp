@@ -20,7 +20,7 @@ using namespace std;
 #define pqs			priority_queue<int, vi, greater<int> >
 #define ps(x,y)	 	fixed << setprecision(y) << x
 #define fast		ios_base::sync_with_stdio(0);	cin.tie(0);	cout.tie(0);
-#define w(x)		int t; cin >> t; while(t--)	 
+#define w(t)		int t; cin >> t; while(t--)	 
 #define fr(be,en)   for(int i = be; i < en; i++)
 int pow(int x,int y){ if(y==0) return 1; if(y%2==1) return (((pow(x,y/2)*pow(x,y/2)%mod)*x)%mod); else return (pow(x,y/2)*pow(x,y/2))%mod;}
 vb prime;	vi spf; 
